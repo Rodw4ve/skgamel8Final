@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/skgamel8/static/css/main.b35da58e.css",
+    "main.js": "/skgamel8/static/js/main.814d7d1a.js",
+    "index.html": "/skgamel8/index.html",
+    "main.b35da58e.css.map": "/skgamel8/static/css/main.b35da58e.css.map",
+    "main.814d7d1a.js.map": "/skgamel8/static/js/main.814d7d1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b35da58e.css",
+    "static/js/main.814d7d1a.js"
+  ]
+}
