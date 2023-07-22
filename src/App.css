@@ -1,0 +1,243 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fddfdf;
+}
+
+.home-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+
+.column-block-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  width: calc(25% - 10px); 
+  margin-bottom: 20px; 
+}
+
+.column-block-left:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.column-block-left h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.dropdown-content {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.home-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #ec008c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.home-button:hover {
+  background-color: #c6007d;
+}
+
+.home-icons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.home-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.home-icon img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.home-icon h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.home-icon p {
+  font-size: 16px;
+  text-align: center;
+  color: #555;
+}
+
+.anti-cheat-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #7e00c2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.anti-cheat-button:hover {
+  background-color: #64009b;
+}
+
+
+.home-featured-games {
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.home-featured-games h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+.home-updates {
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.home-updates h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.home-partners {
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.home-partners h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+.home-testimonials {
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.home-testimonials h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+.home-cta {
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.home-cta h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+.nice-box-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-bottom: 40px;
+  flex-direction:row; 
+}
+
+.nice-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% - 20px); 
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.nice-box-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.nice-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.nice-box p {
+  font-size: 16px;
+}

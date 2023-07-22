@@ -1,0 +1,129 @@
+/* SupportPage.css */
+
+:root {
+  --primary-pink: #ff69b4;
+  --primary-purple: #800080;
+}
+
+.support-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fddfdf;
+  padding: 20px;
+}
+
+.support-content {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.support-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.support-header h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: var(--primary-purple);
+}
+
+.support-header input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.support-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.support-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.support-row button {
+  width: 200px;
+  height: 50px;
+  margin: 0 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primary-pink);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.support-row button:hover {
+  transform: scale(1.1);
+}
+
+.support-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.contact-info,
+.promoted-articles {
+  font-size: 14px;
+  color: #888;
+}
+
+.support-articles h2,
+.support-articles li {
+  color: var(--primary-purple);
+}
+
+.support-articles ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.support-articles li {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .support-buttons {
+    flex-direction: column;
+  }
+
+  .support-row {
+    margin-bottom: 10px;
+  }
+
+  .support-row button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .support-header input[type="text"] {
+    width: 100%;
+    max-width: 100%;
+  }
+}

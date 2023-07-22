@@ -1,0 +1,192 @@
+
+.play-page {
+  display: flex;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px; 
+  background-color: #ff80cc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-menu li {
+  margin-bottom: 20px;
+}
+
+.sidebar-menu li a {
+  display: block;
+  padding: 15px; 
+  background-color: #ff80ab;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px; 
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-menu li a.active {
+  background-color: #ab47bc;
+}
+
+.sidebar-menu li a:hover {
+  background-color: #ab47bc;
+}
+
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: #fddfdf; 
+  padding: 20px;
+}
+
+
+.overview-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.overview-menu li {
+  margin-right: 15px; 
+}
+
+.overview-menu li:last-child {
+  margin-right: 0;
+}
+
+.overview-button {
+  background-color: #ec008c; 
+  color: #fff;
+  padding: 12px 20px; 
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.overview-button.active,
+.overview-button:hover {
+  background-color: #c6007d; 
+}
+
+
+.gamemode-container {
+  margin-bottom: 20px;
+}
+
+.gamemode-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.gamemode-options li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+
+.hubs-container {
+  margin-top: auto;
+}
+
+
+h1 {
+  font-size: 28px; 
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px; 
+  margin-bottom: 10px;
+}
+
+
+.recommended-hubs {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.recommended-hubs li {
+  padding: 15px; 
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.recommended-hubs li h4 {
+  font-size: 20px; 
+  margin-bottom: 5px;
+}
+
+.recommended-hubs li p {
+  font-size: 16px; 
+  margin-bottom: 10px;
+}
+
+.recommended-hubs li a {
+  font-size: 14px; 
+  color: #3f51b5;
+  text-decoration: none;
+}
+
+.recommended-hubs li a:hover {
+  text-decoration: underline;
+}
+
+
+.featured-hub-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.featured-hub-container h1 {
+  font-size: 32px; 
+  margin-bottom: 10px;
+}
+
+.featured-hub-container p {
+  font-size: 18px; 
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .play-page {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    align-items: center;
+  }
+
+  .content {
+    padding: 20px;
+  }
+}

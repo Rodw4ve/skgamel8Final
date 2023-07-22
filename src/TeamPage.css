@@ -1,0 +1,203 @@
+/* TeamPage.css */
+
+.team-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px; 
+  font-family: Arial, sans-serif;
+  background-color: #fddfdf;
+}
+
+.team-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+}
+
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff80cc; 
+}
+
+
+.team-members {
+  display: flex;
+  gap: 10px;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+.member-name {
+  margin-top: 10px;
+}
+
+.team-chat {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-inbox {
+  height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.message {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+.message-form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.message-form input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.message-form button {
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+}
+
+
+.team-calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.calendar-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff80cc; 
+}
+
+.calendar-event {
+  background-color: #ffe0f0; 
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-event-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff33cc;
+}
+
+.calendar-event-details {
+  font-size: 14px;
+  color: #555;
+}
+
+
+.team-announcement {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.announcement-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff80cc; 
+}
+
+.announcement-item {
+  background-color: #ffe0f0; 
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-text {
+  font-size: 16px;
+  color: #333;
+}
+
+
+.team-reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.reviews-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff80cc; 
+}
+
+.review-item {
+  background-color: #ffe0f0; 
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-text {
+  font-size: 16px;
+  color: #333;
+}
+
+.review-author {
+  font-size: 14px;
+  font-style: italic;
+  color: #555;
+}
+
+
+.team-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.highlights-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff80cc;
+}
+
+.highlight-item {
+  background-color: #ffe0f0; 
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-text {
+  font-size: 16px;
+  color: #333;
+}
+
+.highlight-date {
+  font-size: 14px;
+  color: #555;
+}
